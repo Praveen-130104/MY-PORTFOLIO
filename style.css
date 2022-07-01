@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Indie+Flower&family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: Sequel, sans-serif;
+    text-size-adjust: 100%;
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+nav img{
+    width: 200px;
+    height: 200px;
+    margin-right: 300px;;
+
+}
+nav ul li{
+    margin: 0 20px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(35, 34, 34);
+    background: grey;
+}
+.bio img{
+    width: 340px;
+    height: 380px;
+    margin-top: 0px;
+}
+.bio{
+    border: 1px solid white;
+}
+.bio article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    padding-left: 30px;
+    
+
+} 
+.bio h2{
+    margin-top: 50px;
+    margin-left: 50%;
+}
+.portfolio{
+    margin-top: 50px;
+}
+.portfolio h3{
+    margin-left: 40%;
+    font-size: 30px;
+    color: beige;
+}
+.portfolio h6{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 39%;
+}
+.rpa{
+    width: 50vw;
+    margin-top: 50px;
+    margin-left: 5%;
+    border: 1px solid white;
+    
+}
+.rpa h4{
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: aqua;
+}
+.rpa img{
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.rpa p{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.eys{
+    width: 50vw;
+    margin-top: 50px;
+    border: 1px solid white;
+    margin-right: 5%;
+}
+.eys h4{
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 18px;
+    color: aqua;
+}
+.eys img{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.eys p{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.skills{
+    font-size: 23px;
+}
+.skills h3{
+    margin-top: 550px;
+    margin-left: 42%;
+    font-size: 30px;
+    color: beige;
+}
+.skills p{
+    margin-left: 28%;
+    margin-top: 2%;
+    
+}
+.language{
+    margin-top:50px ;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.language h4{
+    color: beige;
+    
+}
+.language ul{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#t{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    
+}
+#idt p{
+    margin-right:3px;
+}
+#e{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    
+}
+#ide p{
+    margin-right:3px;
+}
+#f{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    
+}
+#idf p{
+    margin-right:3px;
+}
+.tools{
+    margin-top:50px ;
+    margin-right: 2%;
+    font-size: 20px;
+}
+.tools h4{
+    color: beige;
+    
+}
+.tools ul{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#ux{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+#exc{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+.planguage{
+    margin-top:45px ;
+    margin-right: 16%;
+    font-size: 20px;
+}
+.planguage h4{
+    color: beige;
+    
+    margin-left: 70px;
+}
+.planguage ul{
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-bottom: 160px;
+}
+#python{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-bottom: 50%;
+}
+#idpy p{
+    margin-left: 40px;
+}
+#c{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-bottom: 50%;
+}
+#idc p{
+    margin-left: 40px;
+}
+#cp{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-bottom:50%;
+}
+#idcp p{
+    margin-left: 40px;
+}
+#ht{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-bottom:50%;
+}
+#idht p{
+    margin-left: 40px;
+}
+#css{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-bottom:50%;
+}
+#idcss p{
+    margin-left: 40px;
+}
+.endo{
+    color: black;
+    background: grey;
+}
+.endo h2{
+    margin-top: 500px;
+    margin-left: 45%;
+
+}
+.endo ul{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+}
+.endo ul li{
+    margin:0 20px;
+    margin-bottom: 50px;
+}
+.endo ul img{
+    width: 30px;
+    height: 30px;
+}
+.planguage{
+    color: beige;
+    text-decoration: none;
+    list-style: none;
+}
+#io li{
+    list-style: none;
+}
+#ui li{
+    list-style: none;
+}
+#lo li{
+    list-style: none;
+}
+footer h4 a{
+    margin-left: 90%;
+    text-decoration: none;
+    color: beige;
+}
+
+
